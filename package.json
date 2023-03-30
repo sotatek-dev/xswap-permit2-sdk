@@ -1,0 +1,43 @@
+{
+  "name": "@xswap/permit2-sdk",
+  "version": "0.0.1",
+  "description": "An sdk for interacting with permit2.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "tsdx test --testPathIgnorePatterns=/permit2/",
+    "build": "tsdx build",
+    "start": "tsdx watch",
+    "interop": "yarn node writeInterop.js",
+    "prepublishOnly": "tsdx build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sotatek-dev/xswap-permit2-sdk"
+  },
+  "keywords": [
+    "xswap",
+    "xinfin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.3.1",
+    "tiny-invariant": "^1.3.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "prettier": "^2.4.1",
+    "tsdx": "^0.14.1"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true
+  }
+}
