@@ -1,6 +1,6 @@
 {
   "name": "@xswap-v3/permit2-sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An sdk for interacting with permit2.",
   "publishConfig": {
     "access": "public"
