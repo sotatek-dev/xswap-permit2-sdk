@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber'
 
-export const PERMIT2_ADDRESS = '0x917f73c5166911db561b0f99847a992bd6419411'
+export const PERMIT2_ADDRESS = '0x0e328ed57E4EC8F490a5Ab4B470dc866A0c9110E'
 
 export const MaxUint48 = BigNumber.from('0xffffffffffff')
 export const MaxUint160 = BigNumber.from('0xffffffffffffffffffffffffffffffffffffffff')
